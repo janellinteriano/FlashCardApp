@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(241, 248, 248);
+    font-family: 'Tilt Neon', sans-serif;
+}
+#title {
+    text-align: center;
+    padding-top: 35px;
+    font-size: 50px;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.top-buttons {
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: rgb(151, 183, 185);
+    color: rgb(145, 10, 55);
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    font-size: 15px;
+    margin: 8px 11px 0 0;
+    border-radius: 6px;
+}
+button:hover {
+    cursor: pointer;
+    box-shadow: 3px 5px rgb(61, 61, 61);
+}
+.timer {
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    width: 250px;
+    height: 100px;
+    margin: -.5% 23%;
+}
+img {
+    height: 100px;
+}
+#countdown {
+    font-size: 65px;
+    margin-left: 20px;
+    margin-top: auto;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+#card {
+    background-color: pink;
+    color: black;
+    width: 350px;
+    height: 400px;
+    font-size: 25px;
+    text-align: center;
+    margin: 0px 15px 0 0;
+    border: 3px solid black;
+    border-radius: 10px;
+}
